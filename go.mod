@@ -4,6 +4,8 @@ go 1.26
 
 require github.com/spf13/cobra v1.10.2
 
+require github.com/slavkiy/witgo v0.0.0
+
 require (
 	github.com/apparentlymart/go-userdirs v0.0.0-20200915174352-b0c018a67c13 // indirect
 	github.com/bytecodealliance/componentize-go v0.4.1 // indirect
@@ -14,3 +16,5 @@ require (
 )
 
 tool github.com/bytecodealliance/componentize-go
+
+replace github.com/slavkiy/witgo => ./witgo
