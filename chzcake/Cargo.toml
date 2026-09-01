@@ -1,0 +1,14 @@
+[package]
+name = "chzcake"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["crates/ast",
+    "crates/lexer", "crates/parser",
+    "crates/token",
+]
+
+[dependencies]
+lexer = { path = "crates/lexer" }
+token = { path = "crates/token" }

@@ -9,7 +9,7 @@
 ## Синтаксис
 
 ``` rust
-package model
+pkg model
 
 use (
     "golang" as go
