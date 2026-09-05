@@ -1,25 +1,20 @@
-<p align="center"><img src="assets/art.png" alt="Chzcake" width="300"></p>
-<p align="center">декларативный мета-язык с поддержкой плагинов</p>
+<p align="center">Декларативная библиотека для описания моделей данных для fugalang</p>
 
 ---
 
 ## Оглавление
-  * [Примеры синтаксиса](#синтаксис)
+  * [Начать использовать](#начать-использовать)
 
-## Синтаксис
+## Начать использовать
 
 ``` rust
-pkg model
-
-use (
-    "golang" as go
-    "std"
+imp (
+  "chzcake" -> chz
 )
-
-go::struct People {
-    pub name: string = "Name"
-    pub age: uint {
-      std::v(max:150)
-    }
+fn Main() {
+  const pkg := chz.Model!("User",
+    pub name: str
+    pub age: u8
+  )
 }
 ```
