@@ -24,3 +24,4 @@ TestResults.xml
 
 target/
 Cargo.lock
+chzcake/
