@@ -1,0 +1,15 @@
+pkg User
+
+type User struct {
+    pub name: str
+    pub age: u8
+}
+
+impl User {
+    pub fn new() -> User {
+        User{
+            name: "",
+            age: 0
+        }
+    }
+}

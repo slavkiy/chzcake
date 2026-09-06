@@ -1,0 +1,21 @@
+imp (
+  "chzcake" -> chz
+)
+
+fn Main() {
+  const pkg := chz::Model!("User",
+    pub name: str
+    pub age: u8
+  )
+
+  printst!(pkg::User::new())
+}
+
+//
+// ? console output
+//
+// User {
+//    name: "",
+//    age: 0
+// }
+//

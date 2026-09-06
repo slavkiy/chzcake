@@ -11,6 +11,7 @@
 imp (
   "chzcake" -> chz
 )
+
 fn Main() {
   const pkg := chz.Model!("User",
     pub name: str
